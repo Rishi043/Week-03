@@ -1,7 +1,7 @@
 package DoublyLinkedList.LibraryManagementSystem;
 
 // Class to manage the library
-class LibraryManagement {
+public class LibraryManagement {
     private Book head; // Pointer to the first book
     private Book tail; // Pointer to the last book
     private int totalBooks = 0; // Count of books in the library
