@@ -83,8 +83,8 @@ public class LibraryManagement {
         boolean found = false;
 
         while (current != null) {
-            if ((title != null && current.title.equalsIgnoreCase(title)) ||
-                    (author != null && current.author.equalsIgnoreCase(author))) {
+            if ((current.title.equalsIgnoreCase(title)) ||
+                    (current.author.equalsIgnoreCase(author))) {
                 System.out.println("Title: " + current.title + ", Author: " + current.author +
                         ", Genre: " + current.genre + ", ID: " + current.id +
                         ", Available: " + (current.available ? "Yes" : "No"));
